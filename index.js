@@ -12,4 +12,4 @@ app.get('/', (req, res) => {
 app.use('/api', require('./routes.js')); 
 
 //app.listen(port, [host], [backlog], [callback]])
-app.listen(PORT , () => console.log(`server started on port ${port}`));
+app.listen(PORT , () => console.log(`server started on port ${PORT}`));
